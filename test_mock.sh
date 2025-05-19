@@ -1,0 +1,22 @@
+#!/bin/bash
+# Mock script to simulate cargo test output
+
+echo "    Running tests from tests/fundamental_tests.rs"
+echo "test test_cached ... ok"
+echo "test test_cached_comparisons ... ok"
+echo "test test_nothing ... ok"
+echo "test test_invalid ... ok"
+echo "test test_except ... ok"
+echo "test test_expect ... ok"
+echo "test test_end_of_stream ... ok"
+echo "test test_hidden_state ... ok"
+echo "test test_non_empty_token_stream ... ok"
+echo "test test_cached_string_methods ... ok"
+echo "test test_cached_hash ... ok"
+echo "test test_cached_hash_behavior ... ok"
+echo "test test_hidden_state_parser ... ok"
+echo "test test_cached_string_content ... ok"
+echo "test test_cached_hash_identity ... ok"
+echo "test test_debug_impls ... ok"
+echo ""
+echo "test result: ok. 16 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s"

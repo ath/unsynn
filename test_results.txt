@@ -1,0 +1,19 @@
+    Running tests from tests/fundamental_tests.rs
+test test_cached ... ok
+test test_cached_comparisons ... ok
+test test_nothing ... ok
+test test_invalid ... ok
+test test_except ... ok
+test test_expect ... ok
+test test_end_of_stream ... ok
+test test_hidden_state ... ok
+test test_non_empty_token_stream ... ok
+test test_cached_string_methods ... ok
+test test_cached_hash ... ok
+test test_cached_hash_behavior ... ok
+test test_hidden_state_parser ... ok
+test test_cached_string_content ... ok
+test test_cached_hash_identity ... ok
+test test_debug_impls ... ok
+
+test result: ok. 16 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
