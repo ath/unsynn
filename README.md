@@ -11,18 +11,6 @@ own grammar or need only sparse rust parsers.
 Other uses can be building parsers for gramars outside a rust/proc-macro context. Unsynn can
 parse any `&str` data (The tokenizer step relies on proc_macro2).
 
-# Development
-
-## Generating Test Results
-
-You can run the included script to generate test results:
-
-```bash
-./generate_test_results.sh
-```
-
-This will run all the tests and save the results to `test_results.txt` in the project root directory.
-
 # Examples
 
 ## Creating and Parsing Custom Types
