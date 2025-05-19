@@ -11,7 +11,6 @@ own grammar or need only sparse rust parsers.
 Other uses can be building parsers for gramars outside a rust/proc-macro context. Unsynn can
 parse any `&str` data (The tokenizer step relies on proc_macro2).
 
-
 # Examples
 
 ## Creating and Parsing Custom Types
