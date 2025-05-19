@@ -1,4 +1,5 @@
-    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.01s
+   Compiling unsynn v0.0.26 (/home/runner/work/unsynn/unsynn)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 2.38s
      Running unittests src/lib.rs (target/debug/deps/unsynn-203a0b8aa4362fc0)
 
 running 16 tests
@@ -8,12 +9,12 @@ test combinator::tests::test_cons_invalid_nothing - should panic ... ok
 test combinator::tests::test_either_invalid_invalid - should panic ... ok
 test combinator::tests::test_either_used_disjunctions ... ok
 test fundamental::test_cached_into_tt ... ok
-test fundamental::test_empty_token_stream ... ok
 test fundamental::test_non_empty_token_stream ... ok
-test group::test_bracegroupcontaining_into_tt ... ok
 test group::test_bracegroup_into_tt ... ok
-test literal::test_literalcharacter_into_tt ... ok
+test fundamental::test_empty_token_stream ... ok
+test group::test_bracegroupcontaining_into_tt ... ok
 test group::test_groupcontaining_into_tt ... ok
+test literal::test_literalcharacter_into_tt ... ok
 test literal::test_literalinteger_into_tt ... ok
 test literal::test_literalstring_into_tt ... ok
 test punct::test_alone_punct_into_tt ... ok
@@ -27,8 +28,8 @@ running 6 tests
 test test_4cons ... ok
 test test_cons ... ok
 test test_either ... ok
-test test_either_to_tokens ... ok
 test test_either_error_progress ... ok
+test test_either_to_tokens ... ok
 test test_except ... ok
 
 test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
@@ -39,8 +40,8 @@ running 15 tests
 test test_delimited_vec_ranged_repeats ... ok
 test test_conversions ... ok
 test test_delimitedvec ... ok
-test test_into_iter ... ok
 test test_lazy_vec_ranged_repeats ... ok
+test test_into_iter ... ok
 test test_lazy_vec_to_tokens ... ok
 test test_nothingdelimitedvec ... ok
 test test_option ... ok
@@ -57,8 +58,8 @@ test result: ok. 15 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; fin
      Running tests/debug_tests.rs (target/debug/deps/debug_tests-42ec08d6d94e6b3b)
 
 running 3 tests
-test test_group_containing ... ok
 test test_operator ... ok
+test test_group_containing ... ok
 test test_lazy_vec ... ok
 
 test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
@@ -70,8 +71,8 @@ test test_error_set_pos ... ok
 test test_error_keyword - should panic ... ok
 test test_error_unexpected_end - should panic ... ok
 test test_error_unexpected_token - should panic ... ok
-test test_error_upgrade ... ok
 test test_token_count_impls ... ok
+test test_error_upgrade ... ok
 
 test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
 
@@ -81,9 +82,9 @@ running 16 tests
 test test_cached ... ok
 test test_cached_comparisons ... ok
 test test_cached_hash ... ok
+test test_cached_string_content ... ok
 test test_cached_hash_behavior ... ok
 test test_cached_string_methods ... ok
-test test_cached_string_content ... ok
 test test_cached_hash_identity ... ok
 test test_debug_impls ... ok
 test test_end_of_stream ... ok
@@ -92,8 +93,8 @@ test test_expect ... ok
 test test_hidden_state ... ok
 test test_hidden_state_parser ... ok
 test test_invalid ... ok
-test test_non_empty_token_stream ... ok
 test test_nothing ... ok
+test test_non_empty_token_stream ... ok
 
 test result: ok. 16 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
 
@@ -110,9 +111,9 @@ test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; fini
 
 running 16 tests
 test test_character ... ok
-test test_character_set ... ok
 test test_character_set_value ... ok
 test test_character_partial_eq ... ok
+test test_character_set ... ok
 test test_integer ... ok
 test test_integer_partial_eq ... ok
 test test_integer_set ... ok
@@ -139,19 +140,19 @@ test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; fini
      Running tests/punct_tests.rs (target/debug/deps/punct_tests-83900154a2b55998)
 
 running 15 tests
-test test_joint_text ... ok
 test test_fancy ... ok
+test test_joint_text ... ok
 test test_lifetime_tick ... ok
 test test_onepunct ... ok
 test test_operator_custom ... ok
 test test_operator_tokens ... ok
 test test_operator_parser ... ok
-test test_predefined_operators ... ok
-test test_punct_alone_tokens ... ok
-test test_punct_any_tokens ... ok
-test test_punct_joint_tokens ... ok
 test test_punct_alone_parser ... ok
+test test_predefined_operators ... ok
+test test_punct_any_tokens ... ok
+test test_punct_alone_tokens ... ok
 test test_punct_joint_parser ... ok
+test test_punct_joint_tokens ... ok
 test test_threepunct ... ok
 test test_twopunct ... ok
 
@@ -162,8 +163,8 @@ test result: ok. 15 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; fin
 running 10 tests
 test test_bool_to_tokens ... ok
 test test_char_to_tokens ... ok
-test test_isize_parse ... ok
 test test_i8_parse ... ok
+test test_isize_parse ... ok
 test test_parse_bool ... ok
 test test_parse_char ... ok
 test test_parse_string ... ok
@@ -177,11 +178,11 @@ test result: ok. 10 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; fin
 
 running 7 tests
 test test_gen ... ok
-test test_groupcontaining_gen ... ok
 test test_parenthesisgroup_gen ... ok
-test test_tt_conversion ... ok
+test test_groupcontaining_gen ... ok
 test test_tt_selfconvert ... ok
 test test_tuple_struct ... ok
+test test_tt_conversion ... ok
 test test_vec_gen ... ok
 
 test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
@@ -189,17 +190,17 @@ test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; fini
      Running tests/tt_tests.rs (target/debug/deps/tt_tests-f6f3fbd1578274bb)
 
 running 12 tests
-test test_bracketgroup ... ok
 test test_bracegroup ... ok
+test test_bracketgroup ... ok
 test test_delimited ... ok
-test test_parenthesisgroup ... ok
 test test_delimited_undelimited ... ok
-test test_parse_all - should panic ... ok
+test test_parenthesisgroup ... ok
 test test_parse_comma ... ok
-test test_parse_group ... ok
+test test_parse_all - should panic ... ok
 test test_parse_ident ... ok
-test test_parse_punct ... ok
+test test_parse_group ... ok
 test test_parse_literal ... ok
+test test_parse_punct ... ok
 test test_parse_tokentree ... ok
 
 test result: ok. 12 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
@@ -215,17 +216,17 @@ test src/fundamental.rs - fundamental::Cached<T>::new (line 211) ... ok
 test src/fundamental.rs - fundamental::Discard (line 468) ... ok
 test src/fundamental.rs - fundamental::EndOfStream (line 543) ... ok
 test src/fundamental.rs - fundamental::Cached (line 166) ... ok
-test src/fundamental.rs - fundamental::Expect (line 428) ... ok
 test src/fundamental.rs - fundamental::Except (line 389) ... ok
 test src/group.rs - group::GroupContaining<C>::new (line 99) ... ok
+test src/fundamental.rs - fundamental::Expect (line 428) ... ok
 test src/fundamental.rs - fundamental::Skip (line 508) ... ok
 test src/lib.rs - &'_mutTokenIter<'_> (line 230) ... ok
-test src/lib.rs - (line 25) ... ok
-test src/lib.rs - (line 50) ... ok
-test src/lib.rs - (line 102) ... ok
-test src/lib.rs - Parse (line 136) ... ok
+test src/lib.rs - (line 36) ... ok
+test src/lib.rs - (line 61) ... ok
+test src/lib.rs - (line 113) ... ok
 test src/lib.rs - Parse (line 187) ... ok
-test src/lib.rs - (line 70) ... ok
+test src/lib.rs - Parse (line 136) ... ok
+test src/lib.rs - (line 81) ... ok
 test src/lib.rs - Parse (line 205) ... ok
 test src/lib.rs - Parse (line 233) ... ok
 test src/macros.rs - macros::keyword (line 379) ... ok
@@ -236,5 +237,5 @@ test src/punct.rs - punct::PunctAlone (line 129) ... ok
 test src/punct.rs - punct::PunctJoint (line 50) ... ok
 test src/rust_types.rs - rust_types::&'_str (line 119) ... ok
 
-test result: ok. 28 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.75s
+test result: ok. 28 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.76s
 
